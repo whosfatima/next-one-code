@@ -78,24 +78,28 @@ header {
 }
 .container{
   h1 {
-    color: darkgray;
-    font-size: 18px;
+    color: rgb(123, 121, 121);
+    font-size: 28px;
+    padding-top: 20px;
   }
   .main{
     padding: 20px;
-    // margin: 20px;
     display: flex;
     align-items: center;
     div {
-      // padding: 10px;
       margin: 20px;
       border-radius: 20px;
-      // border: 1px solid #000;
-      box-shadow: 2px 2px lightgray;
+      box-shadow:  3px 5px 35px rgba(34, 31, 31, 0.1);
       overflow: hidden;
-      // img {
-      //   // width: 100%;
-      // }
+      img {
+
+      }
+      p {
+        padding: 20px;
+      }
+      h2 {
+
+      }
       div{
         border: none;
         border-radius: 0px;

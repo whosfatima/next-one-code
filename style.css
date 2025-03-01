@@ -275,8 +275,9 @@ header .right button {
 }
 
 .container h1 {
-  color: darkgray;
-  font-size: 18px;
+  color: rgb(123, 121, 121);
+  font-size: 28px;
+  padding-top: 20px;
 }
 .container .main {
   padding: 20px;
@@ -286,8 +287,11 @@ header .right button {
 .container .main div {
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 2px 2px lightgray;
+  box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
   overflow: hidden;
+}
+.container .main div p {
+  padding: 20px;
 }
 .container .main div div {
   border: none;
