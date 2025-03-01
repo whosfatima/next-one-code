@@ -17,8 +17,8 @@ This project is currently under development and will be improved over time. The 
 - Refactor code for **better readability and maintainability**.
 
 ## Demo & Screenshot 🌍
-- [Live Demo](#) 🔗
-- ![Project Screenshot](#) 🖼️
+- [Live Demo](https://whosfatima.github.io/next-one-code/) 🔗
+- ![Project Screenshot](./image/demo.png) 🖼️
 
 ## How to Run the Project 🚀
 1. Clone the repository:
