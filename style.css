@@ -362,4 +362,12 @@ header .right button {
 
 .text-prymary {
   color: #464749;
+}
+
+.bg-secondary {
+  background-color: #6c757d;
+}
+
+.text-secondary {
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
