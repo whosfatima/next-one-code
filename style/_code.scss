@@ -202,7 +202,7 @@ header {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    flex: 1;
+    // flex: 1;
     div {
       margin: 20px;
       border-radius: 20px;
@@ -251,7 +251,6 @@ header {
   .finnal {
     h1 {
       padding-bottom: 15px;
-
     }
     p {
       padding-bottom: 15px;
@@ -260,18 +259,16 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
- 
 
       div {
-        padding: 15px 10px ;
+        padding: 15px 10px;
         padding-left: 100px;
         font-size: 15px;
         box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
         margin: 10px;
-        h2{
+        h2 {
           padding-top: 10px;
           font-size: 20px;
-
         }
         p {
           padding-top: 8px;
@@ -280,14 +277,31 @@ header {
     }
   }
 }
-footer{
+footer {
   background-color: lightgray;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 5px 10px;
-  .right{
+  .footer-top {
+    margin: 20px 30px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .right {
+      display: flex;
+      flex-direction: column;
+      h2{
+
+      }
+      p{
+        width: 20em;
+        line-height: 30px;
+        padding-right: 10px;
+        text-align: justify;
+      }
+    }
+    .left{
+      img{
+        width: 4em;
+      }
+    }
   }
 }

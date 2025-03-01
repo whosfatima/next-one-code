@@ -389,7 +389,6 @@ header .right button {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  flex: 1;
 }
 .container .courses div {
   margin: 20px;
@@ -462,14 +461,26 @@ header .right button {
 
 footer {
   background-color: lightgray;
+  padding: 5px 10px;
+}
+footer .footer-top {
+  margin: 20px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px;
 }
-footer .right {
+footer .footer-top .right {
   display: flex;
   flex-direction: column;
+}
+footer .footer-top .right p {
+  width: 20em;
+  line-height: 30px;
+  padding-right: 10px;
+  text-align: justify;
+}
+footer .footer-top .left img {
+  width: 4em;
 }
 
 .bg-orange {
