@@ -1,0 +1,107 @@
+header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    img {
+      padding-right: 20px;
+      width: 8%;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+      li {
+        font-size: 16px;
+        padding: 20px;
+        a {
+          transition: 0.2s all ease-in-out;
+          &:hover {
+            transition: 0.3s all ease-in-out;
+            color: map-get($bg_colors, "orange");
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    padding: 10px 50px;
+    i {
+      position: relative;
+      top: 2px;
+      font-size: 18px;
+      border-radius: 3px;
+      color: rgb(122, 117, 117);
+      padding: 13px;
+      background-color: lightgray;
+      margin-left: 5px;
+      // margin-top: 12px;
+    }
+    button {
+      all: unset;
+      font-size: 16px;
+      text-align: center;
+      background-color: map-get($bg_colors, "orange");
+      padding: 10px;
+      border-radius: 3px;
+      color: #fff;
+      font-weight: 100;
+    }
+  }
+}
+
+.headerSec {
+  background-image: url(https://next1code.ir/wp-content/uploads/2020/11/page-bg.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(231, 180, 86);
+  background-blend-mode: multiply;
+  text-align: center;
+  p {
+    padding-top: 60px;
+    font-size: 35px;
+    color: inherit;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.93);
+    mix-blend-mode: overlay;
+    color: #fff;
+  }
+  i {
+    font-size: 180px;
+    padding-top: 50px;
+  }
+}
+.container{
+  h1 {
+    color: darkgray;
+    font-size: 18px;
+  }
+  .main{
+    padding: 20px;
+    // margin: 20px;
+    display: flex;
+    align-items: center;
+    div {
+      // padding: 10px;
+      margin: 20px;
+      border-radius: 20px;
+      // border: 1px solid #000;
+      box-shadow: 2px 2px lightgray;
+      overflow: hidden;
+      img {
+        // width: 100%;
+      }
+      div{
+        border: none;
+        border-radius: 0px;
+        box-shadow: none;
+
+      }
+    }
+  }
+}

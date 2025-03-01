@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../font/Vazir-Medium.ttf) format(truetype);
+}
+body {
+  font-family: "vazir", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+
+[class^=col-] {
+  float: right;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.32%;
+  }
+  .col-xs-5 {
+    width: 41.65%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.31%;
+  }
+  .col-xs-8 {
+    width: 66.64%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.3%;
+  }
+  .col-xs-11 {
+    width: 91.63%;
+  }
+  .col-xs-12 {
+    width: 100%;
+    height: 40%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.32%;
+  }
+  .col-md-5 {
+    width: 41.65%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.31%;
+  }
+  .col-md-8 {
+    width: 66.64%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3%;
+  }
+  .col-md-11 {
+    width: 91.63%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.32%;
+  }
+  .col-lg-5 {
+    width: 41.65%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.31%;
+  }
+  .col-lg-8 {
+    width: 66.64%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3%;
+  }
+  .col-lg-11 {
+    width: 91.63%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33%;
+  }
+  .col-xl-2 {
+    width: 16.66%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.32%;
+  }
+  .col-xl-5 {
+    width: 41.65%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.31%;
+  }
+  .col-xl-8 {
+    width: 66.64%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.3%;
+  }
+  .col-xl-11 {
+    width: 91.63%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .left {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+header .left img {
+  padding-right: 20px;
+  width: 8%;
+}
+header .left ul {
+  display: flex;
+  list-style-type: none;
+}
+header .left ul li {
+  font-size: 16px;
+  padding: 20px;
+}
+header .left ul li a {
+  transition: 0.2s all ease-in-out;
+}
+header .left ul li a:hover {
+  transition: 0.3s all ease-in-out;
+  color: #ff7400;
+}
+header .right {
+  padding: 10px 50px;
+}
+header .right i {
+  position: relative;
+  top: 2px;
+  font-size: 18px;
+  border-radius: 3px;
+  color: rgb(122, 117, 117);
+  padding: 13px;
+  background-color: lightgray;
+  margin-left: 5px;
+}
+header .right button {
+  all: unset;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ff7400;
+  padding: 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.headerSec {
+  background-image: url(https://next1code.ir/wp-content/uploads/2020/11/page-bg.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(231, 180, 86);
+  background-blend-mode: multiply;
+  text-align: center;
+}
+.headerSec p {
+  padding-top: 60px;
+  font-size: 35px;
+  color: inherit;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.93);
+  mix-blend-mode: overlay;
+  color: #fff;
+}
+.headerSec i {
+  font-size: 180px;
+  padding-top: 50px;
+}
+
+.container h1 {
+  color: darkgray;
+  font-size: 18px;
+}
+.container .main {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.container .main div {
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px lightgray;
+  overflow: hidden;
+}
+.container .main div div {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.bg-orange {
+  background-color: #ff7400;
+}
+
+.text-orange {
+  color: #ff7400;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.bg-violet {
+  background-color: violet;
+}
+
+.text-violet {
+  color: violet;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.text-green {
+  color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
