@@ -290,13 +290,22 @@ header .right button {
   box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
   overflow: hidden;
 }
+.container .main div h2 {
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: right;
+}
 .container .main div p {
-  padding: 20px;
+  padding-top: 20px;
+  text-align: left;
 }
 .container .main div div {
   border: none;
   border-radius: 0px;
   box-shadow: none;
+}
+.container .main div div p {
+  text-align: start;
 }
 
 .bg-orange {
@@ -345,4 +354,12 @@ header .right button {
 
 .text-white {
   color: #fff;
+}
+
+.bg-prymary {
+  background-color: #464749;
+}
+
+.text-prymary {
+  color: #464749;
 }/*# sourceMappingURL=style.css.map */
