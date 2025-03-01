@@ -125,14 +125,14 @@ header {
         padding: 0px 10px;
         p {
           text-align: center;
-          i{
+          i {
             padding-left: 5px;
           }
         }
       }
     }
   }
-  .price{
+  .price {
     padding-bottom: 30px;
     h1 {
       font-size: 28px;
@@ -140,7 +140,6 @@ header {
       font-weight: 100;
       // position: relative;
       // top: 10px;
-      
     }
     ul {
       li {
@@ -151,105 +150,143 @@ header {
     }
   }
   .gifts {
-      padding: 0px 0px;
-      display: flex;
-      align-items: center;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    div {
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
+      overflow: hidden;
+      img {
+      }
+
+      h2 {
+        color: map-get($bg_colors, prymary);
+        padding: 5px 10px;
+        font-size: 15px;
+        text-align: right;
+        font-weight: 100;
+      }
+      p {
+        font-size: 15px;
+        color: map-get($bg_colors, secondary);
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 10px;
+        font-weight: 100;
+        padding-bottom: 10px;
+      }
       div {
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
-        overflow: hidden;
-        img {
-        }
-  
-        h2 {
-          color: map-get($bg_colors, prymary);
-          padding: 5px 10px;
-          font-size: 15px;
-          text-align: right;
-          font-weight: 100;
-        }
+        border-top: 1px solid lightgray;
+        width: 100%;
+        padding-top: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
         p {
-          font-size: 15px;
-          color: map-get($bg_colors, secondary);
-          padding-top: 20px;
-          text-align: left;
-          padding-left: 10px;
-          font-weight: 100;
-          padding-bottom: 10px;
-        }
-        div {
-          border-top: 1px solid lightgray;
-          width: 100%;
-          padding-top: 0px;
-          margin: 0px;
-          border-radius: 0px;
-          box-shadow: none;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0px 10px;
-          p {
-            text-align: center;
-            i{
-              padding-left: 5px;
-            }
+          text-align: center;
+          i {
+            padding-left: 5px;
           }
         }
       }
-    
+    }
   }
-  .courses{
-   
-      padding: 0px 0px;
-      display: flex;
-      align-items: center;
-      flex-flow: row wrap;
+  .courses {
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    div {
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+
+      h2 {
+        color: map-get($bg_colors, prymary);
+        padding: 5px 10px;
+        font-size: 15px;
+        text-align: right;
+        font-weight: 100;
+      }
+      p {
+        font-size: 15px;
+        color: map-get($bg_colors, secondary);
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 10px;
+        font-weight: 100;
+        padding-bottom: 10px;
+      }
       div {
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
-        overflow: hidden;
-        img {
-        }
-  
-        h2 {
-          color: map-get($bg_colors, prymary);
-          padding: 5px 10px;
-          font-size: 15px;
-          text-align: right;
-          font-weight: 100;
-        }
+        border-top: 1px solid lightgray;
+        width: 100%;
+        padding-top: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
         p {
-          font-size: 15px;
-          color: map-get($bg_colors, secondary);
-          padding-top: 20px;
-          text-align: left;
-          padding-left: 10px;
-          font-weight: 100;
-          padding-bottom: 10px;
-        }
-        div {
-          border-top: 1px solid lightgray;
-          width: 100%;
-          padding-top: 0px;
-          margin: 0px;
-          border-radius: 0px;
-          box-shadow: none;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0px 10px;
-          p {
-            text-align: center;
-            i{
-              padding-left: 5px;
-            }
+          text-align: center;
+          i {
+            padding-left: 5px;
           }
         }
       }
-    
-
+    }
   }
+  .finnal {
+    h1 {
+      padding-bottom: 15px;
 
+    }
+    p {
+      padding-bottom: 15px;
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ 
+
+      div {
+        padding: 15px 10px ;
+        padding-left: 100px;
+        font-size: 15px;
+        box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
+        margin: 10px;
+        h2{
+          padding-top: 10px;
+          font-size: 20px;
+
+        }
+        p {
+          padding-top: 8px;
+        }
+      }
+    }
+  }
+}
+footer{
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
 }
