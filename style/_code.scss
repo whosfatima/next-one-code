@@ -79,10 +79,13 @@ header {
 .container {
   h1 {
     font-size: 28px;
-    padding-top: 20px;
+    padding-top: 15px;
+    font-weight: 100;
+    position: relative;
+    top: 10px;
   }
   .main {
-    padding: 20px;
+    padding: 0px 0px;
     display: flex;
     align-items: center;
     div {
@@ -126,6 +129,24 @@ header {
             padding-left: 5px;
           }
         }
+      }
+    }
+  }
+  .price{
+    padding-bottom: 30px;
+    h1 {
+      font-size: 28px;
+      padding-bottom: 15px;
+      font-weight: 100;
+      // position: relative;
+      // top: 10px;
+      
+    }
+    ul {
+      li {
+        font-weight: 100;
+        padding: 5px;
+        font-size: 15px;
       }
     }
   }

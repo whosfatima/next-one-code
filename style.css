@@ -276,10 +276,13 @@ header .right button {
 
 .container h1 {
   font-size: 28px;
-  padding-top: 20px;
+  padding-top: 15px;
+  font-weight: 100;
+  position: relative;
+  top: 10px;
 }
 .container .main {
-  padding: 20px;
+  padding: 0px 0px;
   display: flex;
   align-items: center;
 }
@@ -322,6 +325,19 @@ header .right button {
 }
 .container .main div div p i {
   padding-left: 5px;
+}
+.container .price {
+  padding-bottom: 30px;
+}
+.container .price h1 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  font-weight: 100;
+}
+.container .price ul li {
+  font-weight: 100;
+  padding: 5px;
+  font-size: 15px;
 }
 
 .bg-orange {
