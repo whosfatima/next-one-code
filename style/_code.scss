@@ -3,24 +3,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
   .left {
     padding-right: 20px;
     display: flex;
     align-items: center;
     img {
       padding-right: 20px;
-      width: 8%;
+      width: 10%;
     }
     ul {
       display: flex;
       list-style-type: none;
       li {
         font-size: 16px;
-        padding: 20px;
+        padding: 18px;
         a {
-          transition: 0.2s all ease-in-out;
+          transition: 0.1s all ease-in-out;
           &:hover {
-            transition: 0.3s all ease-in-out;
+            transition: 0.2s all ease-in-out;
             color: map-get($bg_colors, "orange");
           }
         }

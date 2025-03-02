@@ -202,6 +202,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 header .left {
   padding-right: 20px;
@@ -210,7 +211,7 @@ header .left {
 }
 header .left img {
   padding-right: 20px;
-  width: 8%;
+  width: 10%;
 }
 header .left ul {
   display: flex;
@@ -218,13 +219,13 @@ header .left ul {
 }
 header .left ul li {
   font-size: 16px;
-  padding: 20px;
+  padding: 18px;
 }
 header .left ul li a {
-  transition: 0.2s all ease-in-out;
+  transition: 0.1s all ease-in-out;
 }
 header .left ul li a:hover {
-  transition: 0.3s all ease-in-out;
+  transition: 0.2s all ease-in-out;
   color: #ff7400;
 }
 header .right {
