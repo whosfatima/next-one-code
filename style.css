@@ -1,9 +1,5 @@
-@font-face {
-  font-family: "vazir";
-  src: url(../font/Vazir-Medium.ttf) format(truetype);
-}
 body {
-  font-family: "vazir", sans-serif;
+  font-family: "vazir-md", sans-serif;
   font-size: 18px;
 }
 
@@ -222,6 +218,7 @@ header .left ul li {
   padding: 18px;
 }
 header .left ul li a {
+  color: #464749;
   transition: 0.1s all ease-in-out;
 }
 header .left ul li a:hover {
@@ -546,4 +543,41 @@ footer .footer-top .left img {
 
 .text-secondary {
   color: #6c757d;
+}
+
+.p-0 {
+  padding: 1px;
+}
+
+.p-1 {
+  padding: 1px;
+}
+
+.p-2 {
+  padding: 2px;
+}
+
+.p-3 {
+  padding: 3px;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+@font-face {
+  font-family: "vazir-md";
+  src: url(../font/Vazir-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: "vazir-light";
+  src: url(../font/Vazirmatn-Light.ttf) format(truetype);
+}
+@font-face {
+  font-family: "vazir-reg";
+  src: url(../font/Vazirmatn-Regular.ttf) format(truetype);
 }/*# sourceMappingURL=style.css.map */

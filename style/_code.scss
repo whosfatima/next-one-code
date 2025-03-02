@@ -19,6 +19,7 @@ header {
         font-size: 16px;
         padding: 18px;
         a {
+          color: map-get($bg_colors, prymary );
           transition: 0.1s all ease-in-out;
           &:hover {
             transition: 0.2s all ease-in-out;
@@ -94,8 +95,8 @@ header {
       border-radius: 20px;
       box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
       overflow: hidden;
-      img {
-      }
+      // img {
+      // }
 
       h2 {
         color: map-get($bg_colors, prymary);
@@ -159,8 +160,8 @@ header {
       border-radius: 20px;
       box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
       overflow: hidden;
-      img {
-      }
+      // img {
+      // }
 
       h2 {
         color: map-get($bg_colors, prymary);
@@ -289,9 +290,9 @@ footer {
     .right {
       display: flex;
       flex-direction: column;
-      h2{
+      // h2{
 
-      }
+      // }
       p{
         width: 20em;
         line-height: 30px;

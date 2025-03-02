@@ -1,0 +1,43 @@
+@use 'sass:math';
+
+$utilities:(
+    'font-family':(
+        'prefix':'ff',
+        'valuese':(
+            'medium': $ff-medium,
+            'reg': $ff-reg,
+            'light': $ff-light,
+        )
+    ),
+
+    "padding": (
+        "prefix": "p",
+        "values": (
+          "0": $base-padding,
+          "1": $base-padding * 1,
+          "2": $base-padding * 2,
+          "3": $base-padding * 3,
+          "4": $base-padding * 4,
+          "5": $base-padding * 5,
+        ),
+      ),
+      
+ );
+
+@each $proprty, $map in $utilities {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+  
+    @each $key, $val in $values {
+      @if ($key == "default") {
+        .#{$prefix} {
+          #{$proprty}: $val;
+        }
+      } @else {
+        .#{$prefix}-#{$key} {
+          #{$proprty}: $val;
+        }
+      }
+    }
+  }
+  
