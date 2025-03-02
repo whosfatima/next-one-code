@@ -1,26 +1,26 @@
 @use 'sass:math';
 
 $utilities:(
-    'font-family':(
+      'font-family':(
         'prefix':'ff',
-        'valuese':(
+        'values':(
             'medium': $ff-medium,
             'reg': $ff-reg,
             'light': $ff-light,
         )
     ),
 
-    "padding": (
-        "prefix": "p",
-        "values": (
-          "0": $base-padding,
-          "1": $base-padding * 1,
-          "2": $base-padding * 2,
-          "3": $base-padding * 3,
-          "4": $base-padding * 4,
-          "5": $base-padding * 5,
-        ),
-      ),
+    // "padding": (
+    //     "prefix": "p",
+    //     "values": (
+    //       "0": $base-padding,
+    //       "1": $base-padding * 1,
+    //       "2": $base-padding * 2,
+    //       "3": $base-padding * 3,
+    //       "4": $base-padding * 4,
+    //       "5": $base-padding * 5,
+    //     ),
+    //   ),
       
  );
 
