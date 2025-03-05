@@ -225,9 +225,6 @@ header .left ul li {
   font-size: 16px;
   padding: 18px;
 }
-header .left ul li:hover {
-  color: #ff7400;
-}
 header .left ul li a {
   color: #464749;
   transition: 0.1s all ease-in-out;
