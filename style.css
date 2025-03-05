@@ -394,19 +394,17 @@ header .right button {
   padding-left: 5px;
 }
 .container .courses {
-  padding: 0px 0px;
   display: flex;
-  align-items: center;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
 .container .courses div {
-  margin: 20px;
-  border-radius: 20px;
   box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
   overflow: hidden;
-}
-.container .courses div img {
-  width: 100%;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  max-width: 250px;
 }
 .container .courses div h2 {
   color: #464749;

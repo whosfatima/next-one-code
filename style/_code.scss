@@ -197,20 +197,17 @@ header {
     }
   }
   .courses {
-    padding: 0px 0px;
     display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    // flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+ 
+    padding: 20px;
     div {
-      margin: 20px;
-      border-radius: 20px;
       box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
       overflow: hidden;
-      img {
-        width: 100%;
-      }
-
+      border-radius: 10px;
+      flex: 1 1 250px;
+      max-width: 250px;
       h2 {
         color: map-get($bg_colors, prymary);
         padding: 5px 10px;
