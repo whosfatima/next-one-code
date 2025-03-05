@@ -206,19 +206,15 @@ a {
   }
 }
 header {
-  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 header .left {
-  padding-right: 20px;
   display: flex;
   align-items: center;
 }
 header .left img {
-  padding-right: 20px;
   width: 10%;
 }
 header .left ul {
@@ -229,12 +225,18 @@ header .left ul li {
   font-size: 16px;
   padding: 18px;
 }
+header .left ul li:hover {
+  color: #ff7400;
+}
 header .left ul li a {
   color: #464749;
   transition: 0.1s all ease-in-out;
 }
 header .left ul li a:hover {
   transition: 0.2s all ease-in-out;
+  color: #ff7400;
+}
+header .left ul li .active {
   color: #ff7400;
 }
 header .right {
@@ -246,7 +248,6 @@ header .right i {
   font-size: 18px;
   border-radius: 3px;
   color: rgb(122, 117, 117);
-  padding: 13px;
   background-color: lightgray;
   margin-left: 5px;
 }
@@ -272,21 +273,16 @@ header .right button {
   text-align: center;
 }
 .headerSec p {
-  padding-top: 60px;
   font-size: 35px;
-  color: inherit;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.93);
   mix-blend-mode: overlay;
-  color: #fff;
 }
 .headerSec i {
   font-size: 180px;
-  padding-top: 50px;
 }
 
 .container h1 {
   font-size: 28px;
-  padding-top: 45px;
   font-weight: 100;
 }
 .container .main {
@@ -334,12 +330,8 @@ header .right button {
 .container .main div div p i {
   padding-left: 5px;
 }
-.container .price {
-  padding-bottom: 30px;
-}
 .container .price h1 {
   font-size: 28px;
-  padding-bottom: 10px;
   font-weight: 100;
 }
 .container .price ul li {
@@ -452,17 +444,20 @@ header .right button {
   align-items: center;
 }
 .container .finnal .flex div {
+  border-radius: 10px;
   padding: 15px 10px;
   padding-left: 100px;
   font-size: 15px;
   box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
-  margin: 10px;
+  margin: 20px;
 }
 .container .finnal .flex div h2 {
+  color: #464749;
   padding-top: 10px;
   font-size: 20px;
 }
 .container .finnal .flex div p {
+  color: #6c757d;
   padding-top: 8px;
 }
 
