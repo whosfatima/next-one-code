@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
-@font-face {
-  font-family: "vazir-md";
-  src: url(../font/Vazir-Medium.ttf) format(truetype);
-}
-@font-face {
-  font-family: "vazir-light";
-  src: url(../font/Vazirmatn-Light.ttf) format(truetype);
-}
-@font-face {
-  font-family: "vazir-reg";
-  src: url(../font/Vazirmatn-Regular.ttf) format(truetype);
-}
 body {
   font-family: "vazirmatn", "vazir-md", sans-serif;
   font-size: 18px;
