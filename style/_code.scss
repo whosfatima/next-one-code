@@ -8,6 +8,7 @@ header {
     align-items: center;
     img {
       width: 10%;
+      cursor: pointer;
     }
     ul {
       display: flex;
@@ -15,10 +16,6 @@ header {
       li {
         font-size: 16px;
         padding: 18px;
-        
-         
-        
-    
         a {
           color: map-get($bg_colors, prymary );
           transition: 0.1s all ease-in-out;
@@ -27,10 +24,18 @@ header {
             color: map-get($bg_colors, "orange");
           }
         }
-        
+   
         .active{
           color: map-get($bg_colors, 'orange' );
         }
+      }
+      .menu-parts i{
+        &:hover{
+          color: #ff8827;
+        }
+        i {
+cursor: pointer;     
+  }
       }
     }
   }
@@ -48,6 +53,7 @@ header {
     }
     button {
       all: unset;
+      cursor: pointer;
       font-size: 16px;
       text-align: center;
       background-color: map-get($bg_colors, "orange");
@@ -55,6 +61,12 @@ header {
       border-radius: 3px;
       color: #fff;
       font-weight: 100;
+      transition: all ease-in-out 0.2s;
+      &:hover{
+        background-color: #ff8827;
+      transition: all ease-in-out 0.3s;
+
+      }
     }
   }
 }
@@ -100,7 +112,7 @@ header {
         padding: 5px 10px;
         font-size: 18px;
         text-align: right;
-        font-weight: 100;
+        font-weight: 500;
       }
       p {
         font-size: 15px;
@@ -162,7 +174,7 @@ header {
         padding: 5px 10px;
         font-size: 15px;
         text-align: right;
-        font-weight: 100;
+        font-weight: 500;
       }
       p {
         font-size: 15px;
@@ -210,7 +222,7 @@ header {
         padding: 5px 10px;
         font-size: 15px;
         text-align: right;
-        font-weight: 100;
+        font-weight: 500;
       }
       p {
         font-size: 15px;

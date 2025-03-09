@@ -205,6 +205,7 @@ header .left {
 }
 header .left img {
   width: 10%;
+  cursor: pointer;
 }
 header .left ul {
   display: flex;
@@ -225,6 +226,12 @@ header .left ul li a:hover {
 header .left ul li .active {
   color: #ff7400;
 }
+header .left ul .menu-parts i:hover {
+  color: #ff8827;
+}
+header .left ul .menu-parts i i {
+  cursor: pointer;
+}
 header .right {
   padding: 10px 50px;
 }
@@ -239,6 +246,7 @@ header .right i {
 }
 header .right button {
   all: unset;
+  cursor: pointer;
   font-size: 16px;
   text-align: center;
   background-color: #ff7400;
@@ -246,6 +254,11 @@ header .right button {
   border-radius: 3px;
   color: #fff;
   font-weight: 100;
+  transition: all ease-in-out 0.2s;
+}
+header .right button:hover {
+  background-color: #ff8827;
+  transition: all ease-in-out 0.3s;
 }
 
 .headerSec {
@@ -287,7 +300,7 @@ header .right button {
   padding: 5px 10px;
   font-size: 18px;
   text-align: right;
-  font-weight: 100;
+  font-weight: 500;
 }
 .container .main div p {
   font-size: 15px;
@@ -342,7 +355,7 @@ header .right button {
   padding: 5px 10px;
   font-size: 15px;
   text-align: right;
-  font-weight: 100;
+  font-weight: 500;
 }
 .container .gifts div p {
   font-size: 15px;
@@ -389,7 +402,7 @@ header .right button {
   padding: 5px 10px;
   font-size: 15px;
   text-align: right;
-  font-weight: 100;
+  font-weight: 500;
 }
 .container .courses div p {
   font-size: 15px;
