@@ -17,25 +17,25 @@ header {
         font-size: 16px;
         padding: 18px;
         a {
-          color: map-get($bg_colors, prymary );
+          color: map-get($bg_colors, prymary);
           transition: 0.1s all ease-in-out;
           &:hover {
             transition: 0.2s all ease-in-out;
             color: map-get($bg_colors, "orange");
           }
         }
-   
-        .active{
-          color: map-get($bg_colors, 'orange' );
+
+        .active {
+          color: map-get($bg_colors, "orange");
         }
       }
-      .menu-parts i{
-        &:hover{
+      .menu-parts i {
+        &:hover {
           color: #ff8827;
         }
         i {
-cursor: pointer;     
-  }
+          cursor: pointer;
+        }
       }
     }
   }
@@ -62,10 +62,9 @@ cursor: pointer;
       color: #fff;
       font-weight: 100;
       transition: all ease-in-out 0.2s;
-      &:hover{
+      &:hover {
         background-color: #ff8827;
-      transition: all ease-in-out 0.3s;
-
+        transition: all ease-in-out 0.3s;
       }
     }
   }
@@ -95,7 +94,6 @@ cursor: pointer;
   h1 {
     font-size: 28px;
     font-weight: 100;
-    
   }
   .main {
     padding: 0px 0px;
@@ -147,14 +145,13 @@ cursor: pointer;
     h1 {
       font-size: 28px;
       font-weight: 100;
-
     }
     ul {
       li {
         font-weight: 500;
         padding: 5px;
         font-size: 15px;
-        color: map-get($bg_colors, secondary );
+        color: map-get($bg_colors, secondary);
       }
     }
   }
@@ -167,7 +164,6 @@ cursor: pointer;
       border-radius: 20px;
       box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
       overflow: hidden;
-
 
       h2 {
         color: map-get($bg_colors, prymary);
@@ -209,7 +205,7 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
- 
+
     padding: 20px;
     div {
       box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
@@ -273,12 +269,12 @@ cursor: pointer;
         box-shadow: 3px 5px 35px rgba(34, 31, 31, 0.1);
         margin: 20px;
         h2 {
-          color: map-get($bg_colors, 'prymary' );
+          color: map-get($bg_colors, "prymary");
           padding-top: 10px;
           font-size: 20px;
         }
         p {
-          color: map-get($bg_colors, 'secondary' );
+          color: map-get($bg_colors, "secondary");
 
           padding-top: 8px;
         }
@@ -301,24 +297,27 @@ footer {
       // h2{
 
       // }
-      p{
+      p {
         width: 20em;
         line-height: 30px;
         // padding-right: 10px;
         text-align: justify;
       }
     }
-    .left{
-      img{
+    .left {
+      img {
         width: 4em;
       }
     }
   }
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   margin: 0px;
+  .left {
+    margin: 0px 20px;
+  }
 }

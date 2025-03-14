@@ -501,6 +501,9 @@ footer .footer-top .left img {
   width: 100%;
   margin: 0px;
 }
+.footer-bottom .left {
+  margin: 0px 20px;
+}
 
 .bg-orange {
   background-color: #ff7400;
