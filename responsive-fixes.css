@@ -1,0 +1,43 @@
+
+/* === Custom Responsive Fixes === */
+
+@media screen and (max-width: 768px) {
+  header .left ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .left ul li {
+    padding: 10px 0;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container .main,
+  .container .gifts,
+  .container .finnal .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container .main div,
+  .container .gifts div,
+  .container .finnal .flex div {
+    width: 100%;
+  }
+
+  footer .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
